@@ -1,0 +1,18 @@
+<div class='flex justify-center items-center space-x-10'>
+    <div class='flex flex-col items-center bg-slate-600 rounded-full w-20 h-20 justify-center'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="m15 15l3.379-3.379a2.121 2.121 0 0 1 1.5-.621H20a2 2 0 0 1 2 2v0a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v0a2 2 0 0 1 2-2h4.515a6 6 0 0 1 4.242 1.757L15 15zM3 15h18v2a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3v-2z"/><path d="M12 4c-4.623 0-8.432 1.756-8.942 6c-.066.55.39 1 .942 1h16c.552 0 1.008-.45.942-1c-.51-4.244-4.319-6-8.942-6zM7.001 8H7m8.001-1H15m-2.999 1H12"/></g></svg>
+        <a data-sveltekit-preload-data class='hover:text-gray-400 text-sm' href="/cuisine/American">American</a>
+    </div>
+    <div class='flex flex-col items-center bg-slate-600 rounded-full w-20 h-20 justify-center'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="m14 9.01l.01-.011M8 8.01l.01-.011M8 14.01l.01-.011"/><path d="M6 19L2.236 3.004a.6.6 0 0 1 .754-.713L19 7"/><path stroke-linecap="round" d="M22.198 8.425a1.75 1.75 0 0 0-3.396-.85c-.391 1.568-1.9 4.05-4.227 6.375c-2.3 2.301-5.148 4.194-7.968 4.845a1.75 1.75 0 1 0 .787 3.41c3.68-.849 7.082-3.206 9.656-5.78c2.549-2.549 4.54-5.568 5.148-8Z"/></g></svg>
+        <a data-sveltekit-preload-data class=' hover:text-gray-400 text-sm' href="/cuisine/Italian">Italian</a>
+    </div>
+    <div class='flex flex-col items-center bg-slate-600 rounded-full w-20 h-20 justify-center'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M19.5 10.705a.948.948 0 0 0-.92-.67h-5.07v-1.68l4.75.17h.02a.734.734 0 0 0 .73-.73a.718.718 0 0 0-.75-.72l-4.75.17v-1.84l4.78-.67a.723.723 0 0 0 .62-.72a.487.487 0 0 0-.01-.12a.716.716 0 0 0-.87-.58l-4.6.98a1.5 1.5 0 0 0-2.92.47v.15l-1.14.24a1.494 1.494 0 0 0-2.86.61v.01l-1.2.25a.267.267 0 0 0-.2.26v.04a.257.257 0 0 0 .29.21l1.11-.15V7.5l-1.25.04a.263.263 0 0 0-.25.26a.256.256 0 0 0 .25.26l1.25.04v1.94H5.425a.963.963 0 0 0-.92.68a10.119 10.119 0 0 0 1.19 8.53l.61.92a1.233 1.233 0 0 0 1.05.57h9.3a1.228 1.228 0 0 0 1.04-.57l.61-.92a10.136 10.136 0 0 0 1.195-8.545Zm-7.99-5.94a.5.5 0 0 1 .5-.5a.5.5 0 0 1 .5.5v5.24h-1Zm-2 1.2l1-.14v1.53l-1 .03Zm0 2.25l1 .03v1.79h-1Zm-2-2.45a.5.5 0 0 1 .5-.5a.5.5 0 0 1 .5.5v4.24h-1Zm9.96 12.93l-.6.93a.261.261 0 0 1-.21.11h-9.3a.236.236 0 0 1-.21-.11l-.61-.93a9.229 9.229 0 0 1-1.11-7.66l13.12-.03a9.122 9.122 0 0 1-1.085 7.695Z"/></svg>
+        <a data-sveltekit-preload-data class=' hover:text-gray-400 text-sm' href="/cuisine/Thai">Thai</a>
+    </div>
+    <div class='flex flex-col items-center bg-slate-600 rounded-full w-20 h-20 justify-center'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20"><path fill="currentColor" d="M4.926 2.238a.5.5 0 0 0-.852.524L7.913 9H2.5a.5.5 0 0 0-.5.5v.5a8 8 0 0 0 16 0v-.5a.5.5 0 0 0-.5-.5h-5.413L7.926 2.238a.5.5 0 0 0-.852.524L10.913 9H9.087L4.926 2.238ZM3.29 12A7.002 7.002 0 0 1 3 10h14c0 .695-.101 1.366-.29 2H3.29Zm.384 1h12.652a7 7 0 0 1-12.652 0Z"/></svg>
+        <a data-sveltekit-preload-data class=' hover:text-gray-400 text-sm' href="/cuisine/Japanese">Japanese</a>
+    </div>
+</div>
