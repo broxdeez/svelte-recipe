@@ -12,8 +12,8 @@
 	</div>
 	<div>
 		<div class="w-70 h-10 btn-group variant-filled">
-			<button on:click={() => state='instructions'}>Instructions</button>
-			<button on:click={() => state='ingredients'}>Ingredients</button>
+			<button class={state === 'instructions' ? 'bg-blue-500 text-white' : 'bg-gray-200'} on:click={() => state='instructions'}>Instructions</button>
+			<button class={state === 'ingredients' ? 'bg-blue-500 text-white' : 'bg-gray-200'} on:click={() => state='ingredients'}>Ingredients</button>
 		</div>
         {#if state==='instructions'}
         <div class='py-10 flex flex-col space-y-5 pr-32'>
